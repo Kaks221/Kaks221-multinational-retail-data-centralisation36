@@ -1,0 +1,4 @@
+db_creds.yaml
+local_creds.yaml
+__pycache__/
+*.pyc
