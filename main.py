@@ -59,7 +59,7 @@ print(cleaned_sales_df.head())
 db_uploader.upload_to_db(cleaned_sales_df, 'dim_date_times')
 
 #API SECTION
-api_key = 'yFBQbwXe9J3sd6zWAMrK6lcxxr0q1lr2PT6DDMX.'
+api_key = 'yFBQbwXe9J3sd6zWAMrK6lcxxr0q1lr2PT6DDMX'
 api_extractor = DataExtractor(None)
 number_of_stores = api_extractor.list_number_of_stores(api_key)
 print(number_of_stores)
